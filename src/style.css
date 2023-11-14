@@ -1,0 +1,17 @@
+@import url('./Pages/LayoutPage/LayoutPage.css');
+@import url('./Pages/SideBar/SideBar.css');
+@import url('./Pages/UseReducer/UseReducer.css');
+@import url('./Pages/UseRef/UseRef.css');
+@import url('./Pages/UseState/UseState.css');
+@import url('./Pages/UseContext/UseContext.css');
+@import url('./Pages/UseCallback/UseCallBack.css');
+@import url('./Pages/UseDebugValue/UseDebugValue.css');
+@import url('./Pages/UseEffect/UseEffect.css');
+@import url('./Pages/UseId/UseId.css');
+@import url('./Pages/UseLayouteffect/UseLayoutEffect.css');
+@import url('./Pages/UseMemo/UseMemo.css');
+
+body{
+    margin: 0;
+    padding: 0;
+}

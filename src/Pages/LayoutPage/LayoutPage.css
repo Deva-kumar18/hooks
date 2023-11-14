@@ -1,0 +1,41 @@
+.Layout-container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.o-container{
+    position: absolute;
+    height: 100vh;
+    width: 88vw;
+    left: 12vw;
+    top: 0;
+}
+.sidebar-container{
+    height: 100vh;
+    width: 12vw;
+    background-color: brown;
+    position: absolute;
+    
+}
+ul{
+    padding-inline-start: 0px;
+}
+.s-data-list {
+    list-style-type: none;
+    height: 4vh;
+    width: 11vw;
+    background: rgb(122, 25, 160);
+    margin: 4px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 2px;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+.s-data{
+    margin-left: 20px;
+}

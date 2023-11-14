@@ -1,0 +1,41 @@
+.userreducer-container{
+    margin-left: 5vw;
+}
+.reducer-add-btn {
+    margin-left: 1vw;
+    padding: 8px 15px !important;
+    border-radius: 6px;
+   
+}
+.reducer-add-btn:hover{
+    background-color: green;
+    margin-left: 1vw;
+    padding: 8px 15px !important;
+    border-radius: 6px;
+    color: white;
+}
+.reducer-input{
+    padding: 8px 15px !important;
+    border-radius: 6px;
+
+}
+.reducer-update{
+    padding: 8px 15px !important;
+    border-radius: 6px;
+
+}
+.reducer-delete-btn:hover{
+    background-color: red;
+    margin-left: 1vw;
+    padding: 8px 15px !important;
+    border-radius: 6px;
+    color:white;
+}
+.reducer-delete-btn{
+    margin-left: 1vw;
+    padding: 8px 15px !important;
+    border-radius: 6px;
+}
+li{
+    list-style-type: none;
+}
