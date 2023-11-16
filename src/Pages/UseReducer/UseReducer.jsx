@@ -6,13 +6,13 @@ const UserReducer = (state, action) => {
     case "ADD_USER":
       return [...state, { id: Date.now(), name: action.payload }];
     case "UPDATE_USER":
-      return state.map((item) =>
-        item.id === action.payload.id
-          ? { ...item, name: action.payload.name }
-          : item
+      return state.map((user) =>
+        user.id === action.payload.id
+          ? { ...user, name: action.payload.name }
+          : user
       );
     case "DELETE_USER":
-      return state.filter((item) => item.id !== action.payload);
+      return state.filter((user) => user.id !== action.payload);
     default:
       return state;
   }
@@ -21,7 +21,7 @@ const UserReducer = (state, action) => {
 const UseReducer = () => {
   const initialItems = [];
 
-  const [items, dispatch] = useReducer(UserReducer, initialItems);
+  const [user, dispatch] = useReducer(UserReducer, initialItems);
 
   const [newUser, setNewUser] = useState("");
 
@@ -52,7 +52,7 @@ const UseReducer = () => {
       />
       <button className="reducer-add-btn" onClick={addUser}>Add User</button>
       <ul>
-        {items.map((item) => (
+        {user.map((item) => (
           <li key={item.id}>
             <input
               type="text"
